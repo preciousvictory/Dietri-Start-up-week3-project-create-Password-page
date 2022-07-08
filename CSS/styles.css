@@ -108,14 +108,8 @@ input:focus {
 
 /* Footer styles
 ------------------------------ */
-
-hr{
-    margin-top: 70px;
-    border-top: 1px solid #fad427;
-}
-
 .footer{
-    width: 680px;
+    width: 832px;
     margin: 0 auto;
     text-align: center;
 }
@@ -126,8 +120,8 @@ footer h6{
 }
 
 footer p{
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 17px;
     margin-bottom: 20px;
 }
 

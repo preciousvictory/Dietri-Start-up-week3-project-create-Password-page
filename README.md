@@ -6,3 +6,5 @@ Start-up bootcamp
 Dietri
 
 Dietri Create Password Page
+
+![](Capture5.PNG)

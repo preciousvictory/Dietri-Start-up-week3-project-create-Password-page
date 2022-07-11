@@ -43,7 +43,7 @@ main h1{
     width: 400px;
     height: 400px;
     top: 160px;
-    margin: -110px auto 10px;
+    margin: -110px auto 30px;
 }
 
 form>*{
@@ -54,8 +54,8 @@ form>*{
     border: 1px solid #fad427;
     border-radius: 8px;
     margin: 5px 0 10px 0;
-    padding: 10px;
-    width: 90%;
+    height: 35px;
+    width: 300px;
 }
 
 label{
@@ -76,14 +76,10 @@ input:focus {
     outline: 1px solid #fad427;
 }
 
-#eye{
-    margin-left: -35px;
-    margin-bottom: -5px;
-}
-
 .material-icons{
     color: #fad427;
-    margin-left: -35px;
+    margin-left: -30px;
+    padding-right: 10px;
     cursor: pointer;
     font-size: 18px;
 }
@@ -93,7 +89,7 @@ input:focus {
     border: 1px solid #fad427;
     border-radius: 8px;
     margin: 25px auto;
-    padding: 10px;
+    height: 35px;
     width: 300px;
     font-size: 16px;
     font-weight: 700;
@@ -102,6 +98,20 @@ input:focus {
 .submit:hover{
     background-color: #fad327c5;
 
+}
+
+/* validation */
+.validation{
+    background-color: #f3bbbb;
+    border-radius: 5px;
+    font-size: 14px;
+    color: red;
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    margin: 15px auto 25px;
+    text-align: left;
+    transition: 1s ease-out;
 }
 
 
@@ -156,7 +166,7 @@ footer p{
         margin: -100px auto 10px;
     }
     
-    .form-box, .submit{
+    .form-box, .submit, .validation{
         width: 90%;
     }
 
